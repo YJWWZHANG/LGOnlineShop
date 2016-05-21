@@ -1,0 +1,128 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:stretchColumns="1">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/add_item_title"
+        android:textSize="@dimen/label_font_size"
+        android:gravity="center"
+        android:padding="@dimen/title_padding"/>
+
+    <TableRow>
+        <TextView
+            android:text="@string/item_name"
+            android:textSize="@dimen/label_font_size"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <EditText
+            android:id="@+id/edit_text_item_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"/>
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:text="@string/item_desc"
+            android:textSize="@dimen/label_font_size"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <EditText
+            android:id="@+id/edit_text_item_desc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"/>
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:text="@string/remark"
+            android:textSize="@dimen/label_font_size"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <EditText
+            android:id="@+id/edit_text_item_remark"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"/>
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:text="@string/init_price"
+            android:textSize="@dimen/label_font_size"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <EditText
+            android:id="@+id/edit_text_init_price"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"/>
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/avail_time"
+            android:textSize="@dimen/label_font_size"/>
+        <Spinner
+            android:id="@+id/spinner_avail_time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:entries="@array/avail_time"/>
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/item_kind"
+            android:textSize="@dimen/label_font_size"/>
+        <Spinner
+            android:id="@+id/spinner_item_kind"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </TableRow>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:layout_weight="1">
+            <Button
+                android:id="@+id/button_add"
+                style="?android:textAppearanceSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="@string/add"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:layout_weight="1">
+            <Button
+                android:id="@+id/button_cancel"
+                style="?android:textAppearanceSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="@string/cancel"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</TableLayout>

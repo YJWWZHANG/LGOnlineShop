@@ -1,0 +1,63 @@
+<resources>
+    <string name="app_name">乐购商城</string>
+
+    <!-- activity_login.xml-->
+    <string name="hello">Hello World, Login!</string>
+    <string name="user_name">用户名：</string>
+    <string name="user_pass">密码：</string>
+    <string name="login">登录</string>
+    <string name="cancel">取消</string>
+    <string name="welcome">欢迎使用乐购商城</string>
+
+    <!-- fragment_view_item.xml-->
+    <string name="view_success">浏览竞得物品</string>
+    <string name="view_fail">浏览流拍物品</string>
+
+    <!-- dialog_detail.xml-->
+    <string name="item_name">物品名：</string>
+    <string name="item_kind">物品种类：</string>
+    <string name="win_price">赢取价格：</string>
+    <string name="remark">物品备注：</string>
+
+    <!-- fragment_manager_kind.xml-->
+    <string name="manager_kind">系统的所有物品种类</string>
+
+    <!-- fragment_add_kind.xml-->
+    <string name="add_kind_title">添加物品种类</string>
+    <string name="kind_name">种类名称：</string>
+    <string name="kind_desc">种类描述：</string>
+    <string name="add">添加</string>
+
+    <!--fragment_manager_item.xml-->
+    <string name="manager_item">你当前的拍卖物品</string>
+
+    <!-- dialog_detail_in_bid.xml-->
+    <string name="init_price">起拍价格：</string>
+    <string name="end_time">结束时间：</string>
+
+    <!-- fragment_add_item.xml-->
+    <string name="add_item_title">添加拍卖物品</string>
+    <string name="item_desc">种类描述：</string>
+    <string name="avail_time">有效时间：</string>
+
+    <!-- fragment_choose_kind.xml-->
+    <string name="choose_kind">请选择一个物品种类</string>
+
+    <!-- ChooseItemFragment-->
+    <string name="item_list">当前种类的物品</string>
+
+    <!-- fragment_add_bid.xml-->
+    <string name="item_detail_title">物品详情</string>
+    <string name="max_price">最高竞价：</string>
+    <string name="you_bid">您的竞价：</string>
+    <string name="bid">竞价</string>
+
+    <!-- fragment_view_bid.xml-->
+    <string name="view_bid">您参与竞标的物品</string>
+
+    <!-- dialog_bid_detail.xml-->
+    <string name="bid_price">竞标价格：</string>
+    <string name="bid_time">竞标时间：</string>
+    <string name="bid_user">竞标人：</string>
+
+</resources>

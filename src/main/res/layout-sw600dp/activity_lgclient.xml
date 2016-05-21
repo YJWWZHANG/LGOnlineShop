@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:layout_marginLeft="16dp"
+    android:layout_marginRight="16dp"
+    android:divider="?android:attr/dividerHorizontal"
+    android:showDividers="middle">
+
+    <fragment
+        android:id="@+id/lg_list"
+        android:name="app.zqb.legou.fragment.LGListFragment"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+    </fragment>
+
+    <FrameLayout
+        android:id="@+id/lg_detail_container"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="3"
+        android:paddingLeft="10dp">
+
+    </FrameLayout>
+
+</LinearLayout>
